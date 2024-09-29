@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concrete5-cif version="1.0">
+    <singlepages>
+        <page name="Simple Configurator" path="/dashboard/simple_configurator"
+              filename="/dashboard/simple_configurator.php" package="simple_configurator"/>
+        <page name="Settings" path="/dashboard/simple_configurator/settings"
+              filename="/dashboard/simple_configurator/settings.php"
+              package="simple_configurator"/>
+        <page name="Configurators" path="/dashboard/simple_configurator/configurators"
+              filename="/dashboard/simple_configurator/configurators.php"
+              package="simple_configurator"/>
+        <page name="Attributes" path="/dashboard/simple_configurator/attributes"
+              filename="/dashboard/simple_configurator/attributes.php"
+              package="simple_configurator"/>
+        <page name="Submissions" path="/dashboard/simple_configurator/submissions"
+              filename="/dashboard/simple_configurator/submissions.php"
+              package="simple_configurator"/>
+    </singlepages>
+    <attributecategories>
+        <category handle="configurator" allow-sets="0" package="simple_configurator"/>
+    </attributecategories>
+    <attributetypes>
+        <attributetype handle="text" name="Text" package="">
+            <categories>
+                <category handle="configurator"/>
+            </categories>
+        </attributetype>
+        <attributetype handle="textarea" name="Text Area" package="">
+            <categories>
+                <category handle="configurator"/>
+            </categories>
+        </attributetype>
+        <attributetype handle="boolean" name="Checkbox" package="">
+            <categories>
+                <category handle="configurator"/>
+            </categories>
+        </attributetype>
+        <attributetype handle="date_time" name="Date/Time" package="">
+            <categories>
+                <category handle="configurator"/>
+            </categories>
+        </attributetype>
+        <attributetype handle="number" name="Number" package="">
+            <categories>
+                <category handle="configurator"/>
+            </categories>
+        </attributetype>
+        <attributetype handle="select" name="Option List" package="">
+            <categories>
+                <category handle="configurator"/>
+            </categories>
+        </attributetype>
+        <attributetype handle="address" name="Address" package="">
+            <categories>
+                <category handle="configurator"/>
+            </categories>
+        </attributetype>
+        <attributetype handle="telephone" name="Phone Number" package="">
+            <categories>
+                <category handle="configurator"/>
+            </categories>
+        </attributetype>
+        <attributetype handle="url" name="URL" package="">
+            <categories>
+                <category handle="configurator"/>
+            </categories>
+        </attributetype>
+        <attributetype handle="email" name="Email" package="">
+            <categories>
+                <category handle="configurator"/>
+            </categories>
+        </attributetype>
+    </attributetypes>
+
+    <thumbnailtypes>
+        <thumbnailtype name="Configurator Image" handle="configurator_image" sizingMode="exact" width="800"
+                       height="600"/>
+    </thumbnailtypes>
+
+    <attributekeys>
+        <attributekey handle="email" name="E-Mail" package="simple_configurator" searchable="1"
+                      indexed="0" type="email" category="configurator"/>
+        <attributekey handle="first_name" name="First Name" package="simple_configurator" searchable="1"
+                      indexed="0" type="text" category="configurator"/>
+        <attributekey handle="last_name" name="Last Name" package="simple_configurator" searchable="1"
+                      indexed="0" type="text" category="configurator"/>
+    </attributekeys>
+
+    <blocktypes>
+        <blocktype handle="configurator" package="simple_configurator"/>
+    </blocktypes>
+</concrete5-cif>

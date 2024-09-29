@@ -1,0 +1,20 @@
+{
+  "name": "bitterdev/simple_configurator",
+  "type": "concrete5-package",
+  "description": "The Simple Configurator add-On for Concrete CMS lets you add multi-step forms to your site.",
+  "autoload": {
+    "psr-4": {
+      "Bitter\\SimpleConfigurator\\": "src/Bitter/SimpleConfigurator"
+    }
+  },
+  "require": {
+    "ramsey/uuid-doctrine": "^2.1",
+    "ext-simplexml": "*"
+  },
+  "replace": {
+    "psr/log": "*",
+    "psr/cache": "*",
+    "doctrine/dbal": "*",
+    "doctrine/depreciations": "*"
+  }
+}

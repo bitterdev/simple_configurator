@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concrete5-cif version="1.0">
+    <configurators>
+        <configurator id="3b090513-70e8-4341-84a0-338a80eb3906" name="Sample Configurator">
+            <steps>
+                <step id="9a1d221c-389a-11ef-8757-20575295f50f" name="Page 1" locale="" site=""
+                      package="simple_configurator" sort-index="1">
+                    <questions>
+                        <question id="b3446a48-3863-11ef-be06-325096b39f47" name="Question 1"
+                                  description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  tooltip="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  is-required="1"
+                                  sort-index="1"
+                                  reference=""
+                                  package="simple_configurator">
+                            <options>
+                                <option id="dbb5e25a-3862-11ef-b3b0-325096b39f47" value="3500" price="5480"
+                                        sort-index="1"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                                <option id="dbb5e2e6-3862-11ef-a4ad-325096b39f47" value="5300" price="8687"
+                                        sort-index="2"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                                <option id="dbb5e35e-3862-11ef-b2f9-325096b39f47" value="6000" price="7590"
+                                        sort-index="3"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                                <option id="dbb5e3e0-3862-11ef-974a-325096b39f47" value="9000" price="9190"
+                                        sort-index="4"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                                <option id="dbb5e458-3862-11ef-bd70-325096b39f47" value="12000" price="11790"
+                                        sort-index="5"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                                <option id="dbb5e4da-3862-11ef-b0fd-325096b39f47" value="15000" price="12420"
+                                        sort-index="6"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                                <option id="dbb5e55c-3862-11ef-b0e7-325096b39f47" value="20000" price="15770"
+                                        sort-index="7"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                                <option id="dbb5e5d4-3862-11ef-ad6f-325096b39f47" value="25000" price="17970"
+                                        sort-index="8"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                                <option id="dbb5e64c-3862-11ef-9b81-325096b39f47" value="30000" price="20500"
+                                        sort-index="9"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                                <option id="dbb5e6c4-3862-11ef-bf3b-325096b39f47" value="36000" price="24870"
+                                        sort-index="10"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                            </options>
+                        </question>
+
+                        <question id="b3446cbe-3863-11ef-8c29-325096b39f47" name="Question 2"
+                                  description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  tooltip="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  is-required="1" reference="b3446a48-3863-11ef-be06-325096b39f47"
+                                  sort-index="2"
+                                  package="simple_configurator">
+                            <options>
+                                <option id="dbb5e73c-3862-11ef-89c3-325096b39f47" value="3500" price="700" image=""
+                                        sort-index="1"
+                                        package="simple_configurator"/>
+                                <option id="dbb5e7b4-3862-11ef-8c49-325096b39f47" value="5300" price="700" image=""
+                                        sort-index="2"
+                                        package="simple_configurator"/>
+                                <option id="dbb5e82c-3862-11ef-97f5-325096b39f47" value="6000" price="700" image=""
+                                        sort-index="3"
+                                        package="simple_configurator"/>
+                                <option id="dbb5e8a4-3862-11ef-bfa2-325096b39f47" value="9000" price="700" image=""
+                                        sort-index="4"
+                                        package="simple_configurator"/>
+                                <option id="dbb5e926-3862-11ef-bfd0-325096b39f47" value="12000" price="700" image=""
+                                        sort-index="5"
+                                        package="simple_configurator"/>
+                                <option id="dbb5e99e-3862-11ef-993c-325096b39f47" value="15000" price="700" image=""
+                                        sort-index="6"
+                                        package="simple_configurator"/>
+                                <option id="dbb5ea20-3862-11ef-8142-325096b39f47" value="20000" price="700" image=""
+                                        sort-index="7"
+                                        package="simple_configurator"/>
+                                <option id="dbb5ea98-3862-11ef-8b61-325096b39f47" value="25000" price="700" image=""
+                                        sort-index="8"
+                                        package="simple_configurator"/>
+                                <option id="dbb5eb10-3862-11ef-9be2-325096b39f47" value="30000" price="700" image=""
+                                        sort-index="9"
+                                        package="simple_configurator"/>
+                                <option id="dbb5eb88-3862-11ef-8b6c-325096b39f47" value="36000" price="700" image=""
+                                        sort-index="10"
+                                        package="simple_configurator"/>
+                            </options>
+                        </question>
+                    </questions>
+                </step>
+
+                <step id="2f9f29a0-a4af-4aae-b743-4b4197f6083e" name="Page 2" locale="" site=""
+                      package="simple_configurator" sort-index="2">
+                    <questions>
+                        <question id="b3446e1c-3863-11ef-8840-325096b39f47" name="Question 1"
+                                  description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  tooltip="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  is-required="1"
+                                  reference=""
+                                  sort-index="1"
+                                  package="simple_configurator">
+                            <options>
+                                <option id="dbb5f6aa-3862-11ef-adc0-325096b39f47" value="50" price="1975" sort-index="1"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f722-3862-11ef-8a24-325096b39f47" value="100" price="3950"
+                                        sort-index="2"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f7a4-3862-11ef-b8d7-325096b39f47" value="200" price="7900"
+                                        sort-index="3"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f81c-3862-11ef-bec8-325096b39f47" value="300" price="10665"
+                                        sort-index="4"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f88a-3862-11ef-a69c-325096b39f47" value="400" price="14220"
+                                        sort-index="5"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f90c-3862-11ef-a394-325096b39f47" value="500" price="17775"
+                                        sort-index="6"
+                                        image="{ccm:export:file:sample-image.jpg}"
+                                        package="simple_configurator"/>
+                            </options>
+                        </question>
+
+                        <question id="dbb60f46-3862-11ef-85e5-325096b39f47"
+                                  name="Question 2"
+                                  description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  tooltip="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  is-required="1"
+                                  sort-index="2"
+                                  reference="b3446e1c-3863-11ef-8840-325096b39f47"
+                                  package="simple_configurator">
+                            <options>
+                                <option id="dbb5f984-3862-11ef-9714-325096b39f47" value="50" price="3475" image=""
+                                        sort-index="1"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f9fc-3862-11ef-9e8f-325096b39f47" value="100" price="6950" image=""
+                                        sort-index="2"
+                                        package="simple_configurator"/>
+                                <option id="dbb5fa74-3862-11ef-97fb-325096b39f47" value="200" price="10425" image=""
+                                        sort-index="3"
+                                        package="simple_configurator"/>
+                                <option id="dbb5fae2-3862-11ef-ad67-325096b39f47" value="300" price="12510" image=""
+                                        sort-index="4"
+                                        package="simple_configurator"/>
+                                <option id="dbb5fb64-3862-11ef-8a16-325096b39f47" value="400" price="15637" image=""
+                                        sort-index="5"
+                                        package="simple_configurator"/>
+                                <option id="dbb5fbd2-3862-11ef-9966-325096b39f47" value="500" price="18765" image=""
+                                        sort-index="6"
+                                        package="simple_configurator"/>
+                            </options>
+                        </question>
+                    </questions>
+                </step>
+
+                <step id="9a1ece1e-389a-11ef-8757-20575295f50f" name="Page 3" locale="" site=""
+                      package="simple_configurator" sort-index="3">
+                    <questions>
+                        <question id="b3446d54-3863-11ef-b9f6-325096b39f47" name="Question 1"
+                                  description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  tooltip="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  is-required="1" reference=""
+                                  sort-index="2"
+                                  package="simple_configurator">
+                            <options>
+                                <option id="dbb5ebf6-3862-11ef-b913-325096b39f47" value="10.5" price="2548"
+                                        image="{ccm:export:file:sample-image.jpg}" sort-index="1"
+                                        package="simple_configurator"/>
+                                <option id="dbb5ec6e-3862-11ef-899e-325096b39f47" value="15" price="3425"
+                                        image="{ccm:export:file:sample-image.jpg}" sort-index="2"
+                                        package="simple_configurator"/>
+                                <option id="dbb5ecf0-3862-11ef-a45b-325096b39f47" value="18" price="4010"
+                                        image="{ccm:export:file:sample-image.jpg}" sort-index="3"
+                                        package="simple_configurator"/>
+                                <option id="dbb5ed72-3862-11ef-95e3-325096b39f47" value="27" price="5765"
+                                        image="{ccm:export:file:sample-image.jpg}" sort-index="4"
+                                        package="simple_configurator"/>
+                                <option id="dbb5ef0c-3862-11ef-8352-325096b39f47" value="36" price="7520"
+                                        image="{ccm:export:file:sample-image.jpg}" sort-index="5"
+                                        package="simple_configurator"/>
+                                <option id="dbb5ef84-3862-11ef-a68a-325096b39f47" value="45" price="9275"
+                                        image="{ccm:export:file:sample-image.jpg}" sort-index="6"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f006-3862-11ef-98d3-325096b39f47" value="60" price="12200"
+                                        image="{ccm:export:file:sample-image.jpg}" sort-index="7"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f07e-3862-11ef-b05d-325096b39f47" value="75" price="15125"
+                                        image="{ccm:export:file:sample-image.jpg}" sort-index="8"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f0f6-3862-11ef-802f-325096b39f47" value="90" price="18050"
+                                        image="{ccm:export:file:sample-image.jpg}" sort-index="91"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f178-3862-11ef-b09e-325096b39f47" value="108" price="21560"
+                                        image="{ccm:export:file:sample-image.jpg}" sort-index="10"
+                                        package="simple_configurator"/>
+                            </options>
+                        </question>
+
+                        <question id="b3446db8-3863-11ef-94e4-325096b39f47" name="Question 2"
+                                  description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  tooltip="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  is-required="1" reference="b3446d54-3863-11ef-b9f6-325096b39f47"
+                                  sort-index="3"
+                                  package="simple_configurator">
+                            <options>
+                                <option id="dbb5f1fa-3862-11ef-9104-325096b39f47" value="10.5" price="3600" image=""
+                                        sort-index="1"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f268-3862-11ef-928b-325096b39f47" value="15" price="3600" image=""
+                                        sort-index="2"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f2e0-3862-11ef-af23-325096b39f47" value="18" price="3600" image=""
+                                        sort-index="3"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f358-3862-11ef-b33e-325096b39f47" value="27" price="3600" image=""
+                                        sort-index="4"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f3d0-3862-11ef-9f28-325096b39f47" value="36" price="3600" image=""
+                                        sort-index="5"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f448-3862-11ef-840d-325096b39f47" value="45" price="3600" image=""
+                                        sort-index="6"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f4c0-3862-11ef-b9f7-325096b39f47" value="60" price="3600" image=""
+                                        sort-index="7"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f542-3862-11ef-b39f-325096b39f47" value="75" price="3600" image=""
+                                        sort-index="8"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f5ba-3862-11ef-82b3-325096b39f47" value="90" price="3600" image=""
+                                        sort-index="9"
+                                        package="simple_configurator"/>
+                                <option id="dbb5f632-3862-11ef-84b7-325096b39f47" value="108" price="3600" image=""
+                                        sort-index="10"
+                                        package="simple_configurator"/>
+                            </options>
+                        </question>
+
+                        <question id="dbb60eec-3862-11ef-8f9b-325096b39f47" name="Question 3"
+                                  description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  tooltip="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  is-required="1" reference="b3446d54-3863-11ef-b9f6-325096b39f47"
+                                  sort-index="4"
+                                  package="simple_configurator">
+                            <options>
+                                <option id="dbb5fc4a-3862-11ef-9357-325096b39f47" value="10.5" price="2650" image=""
+                                        sort-index="1"
+                                        package="simple_configurator"/>
+                                <option id="dbb5fcae-3862-11ef-a383-325096b39f47" value="15" price="2650" image=""
+                                        sort-index="2"
+                                        package="simple_configurator"/>
+                                <option id="dbb5fd26-3862-11ef-8750-325096b39f47" value="18" price="2650" image=""
+                                        sort-index="3"
+                                        package="simple_configurator"/>
+                                <option id="dbb5fd94-3862-11ef-af31-325096b39f47" value="27" price="2650" image=""
+                                        sort-index="4"
+                                        package="simple_configurator"/>
+                                <option id="dbb5fdf8-3862-11ef-86af-325096b39f47" value="36" price="2650" image=""
+                                        sort-index="5"
+                                        package="simple_configurator"/>
+                                <option id="dbb5fe5c-3862-11ef-8aaf-325096b39f47" value="45" price="3785" image=""
+                                        sort-index="6"
+                                        package="simple_configurator"/>
+                                <option id="dbb5feca-3862-11ef-8093-325096b39f47" value="60" price="3785" image=""
+                                        sort-index="7"
+                                        package="simple_configurator"/>
+                                <option id="dbb5ff9c-3862-11ef-99fc-325096b39f47" value="75" price="3785" image=""
+                                        sort-index="8"
+                                        package="simple_configurator"/>
+                                <option id="dbb60014-3862-11ef-a0fe-325096b39f47" value="90" price="3785" image=""
+                                        sort-index="9"
+                                        package="simple_configurator"/>
+                                <option id="dbb60082-3862-11ef-9129-325096b39f47" value="108" price="3785" image=""
+                                        sort-index="10"
+                                        package="simple_configurator"/>
+                            </options>
+                        </question>
+
+                        <question id="dbb60e7e-3862-11ef-b8ab-325096b39f47" name="Question 4"
+                                  description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  tooltip="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  is-required="1" reference="b3446d54-3863-11ef-b9f6-325096b39f47"
+                                  sort-index="5"
+                                  package="simple_configurator">
+                            <options>
+                                <option id="dbb60118-3862-11ef-86c3-325096b39f47" value="10.5" price="3750" image=""
+                                        sort-index="1"
+                                        package="simple_configurator"/>
+                                <option id="dbb601c2-3862-11ef-8149-325096b39f47" value="15" price="3750" image=""
+                                        sort-index="2"
+                                        package="simple_configurator"/>
+                                <option id="dbb60226-3862-11ef-bd4c-325096b39f47" value="18" price="3750" image=""
+                                        sort-index="3"
+                                        package="simple_configurator"/>
+                                <option id="dbb60294-3862-11ef-af53-325096b39f47" value="27" price="3750" image=""
+                                        sort-index="4"
+                                        package="simple_configurator"/>
+                                <option id="dbb602ee-3862-11ef-82c4-325096b39f47" value="36" price="3750" image=""
+                                        sort-index="5"
+                                        package="simple_configurator"/>
+                                <option id="dbb60366-3862-11ef-8817-325096b39f47" value="45" price="3750" image=""
+                                        sort-index="6"
+                                        package="simple_configurator"/>
+                                <option id="dbb603c0-3862-11ef-b5bc-325096b39f47" value="60" price="3750" image=""
+                                        sort-index="7"
+                                        package="simple_configurator"/>
+                                <option id="dbb60424-3862-11ef-9295-325096b39f47" value="75" price="3750" image=""
+                                        sort-index="8"
+                                        package="simple_configurator"/>
+                                <option id="dbb60488-3862-11ef-85f2-325096b39f47" value="90" price="3750" image=""
+                                        sort-index="9"
+                                        package="simple_configurator"/>
+                                <option id="dbb604ec-3862-11ef-b622-325096b39f47" value="108" price="3750" image=""
+                                        sort-index="10"
+                                        package="simple_configurator"/>
+                            </options>
+                        </question>
+
+                        <question id="dbb60e1a-3862-11ef-8e49-325096b39f47" name="Question 5"
+                                  description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  tooltip="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  is-required="1" reference="b3446d54-3863-11ef-b9f6-325096b39f47"
+                                  sort-index="6"
+                                  package="simple_configurator">
+                            <options>
+                                <option id="dbb60550-3862-11ef-b794-325096b39f47" value="10.5" price="11000" image=""
+                                        sort-index="1"
+                                        package="simple_configurator"/>
+                                <option id="dbb605b4-3862-11ef-a8a7-325096b39f47" value="15" price="11000" image=""
+                                        sort-index="2"
+                                        package="simple_configurator"/>
+                                <option id="dbb60672-3862-11ef-b778-325096b39f47" value="18" price="11000" image=""
+                                        sort-index="3"
+                                        package="simple_configurator"/>
+                                <option id="dbb606e0-3862-11ef-ba99-325096b39f47" value="27" price="11000" image=""
+                                        sort-index="4"
+                                        package="simple_configurator"/>
+                                <option id="dbb60744-3862-11ef-9068-325096b39f47" value="36" price="11000" image=""
+                                        sort-index="5"
+                                        package="simple_configurator"/>
+                                <option id="dbb607bc-3862-11ef-b0ca-325096b39f47" value="45" price="11000" image=""
+                                        sort-index="6"
+                                        package="simple_configurator"/>
+                                <option id="dbb60820-3862-11ef-bcab-325096b39f47" value="60" price="11000" image=""
+                                        sort-index="7"
+                                        package="simple_configurator"/>
+                                <option id="dbb6087a-3862-11ef-9484-325096b39f47" value="75" price="11000" image=""
+                                        sort-index="8"
+                                        package="simple_configurator"/>
+                                <option id="dbb608e8-3862-11ef-8c8a-325096b39f47" value="90" price="11000" image=""
+                                        sort-index="9"
+                                        package="simple_configurator"/>
+                                <option id="dbb6094c-3862-11ef-ae1a-325096b39f47" value="108" price="11000" image=""
+                                        sort-index="10"
+                                        package="simple_configurator"/>
+                            </options>
+                        </question>
+
+                        <question id="dbb60dc0-3862-11ef-a03e-325096b39f47" name="Question 6"
+                                  description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  tooltip="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+                                  is-required="1" reference="b3446d54-3863-11ef-b9f6-325096b39f47"
+                                  sort-index="7"
+                                  package="simple_configurator">
+                            <options>
+                                <option id="dbb609c4-3862-11ef-a5f2-325096b39f47" value="10.5" price="600" image=""
+                                        sort-index="1"
+                                        package="simple_configurator"/>
+                                <option id="dbb60a32-3862-11ef-a8f0-325096b39f47" value="15" price="600" image=""
+                                        sort-index="2"
+                                        package="simple_configurator"/>
+                                <option id="dbb60aa0-3862-11ef-bd30-325096b39f47" value="18" price="600" image=""
+                                        sort-index="3"
+                                        package="simple_configurator"/>
+                                <option id="dbb60b04-3862-11ef-9acb-325096b39f47" value="27" price="600" image=""
+                                        sort-index="4"
+                                        package="simple_configurator"/>
+                                <option id="dbb60b72-3862-11ef-887b-325096b39f47" value="36" price="600" image=""
+                                        sort-index="5"
+                                        package="simple_configurator"/>
+                                <option id="dbb60bd6-3862-11ef-bc5d-325096b39f47" value="45" price="600" image=""
+                                        sort-index="6"
+                                        package="simple_configurator"/>
+                                <option id="dbb60c30-3862-11ef-a0ea-325096b39f47" value="60" price="600" image=""
+                                        sort-index="7"
+                                        package="simple_configurator"/>
+                                <option id="dbb60c9e-3862-11ef-9643-325096b39f47" value="75" price="600" image=""
+                                        sort-index="8"
+                                        package="simple_configurator"/>
+                                <option id="dbb60cf8-3862-11ef-ba43-325096b39f47" value="90" price="600" image=""
+                                        sort-index="9"
+                                        package="simple_configurator"/>
+                                <option id="dbb60d5c-3862-11ef-b68c-325096b39f47" value="108" price="600" image=""
+                                        sort-index="10"
+                                        package="simple_configurator"/>
+                            </options>
+                        </question>
+                    </questions>
+                </step>
+            </steps>
+        </configurator>
+    </configurators>
+</concrete5-cif>

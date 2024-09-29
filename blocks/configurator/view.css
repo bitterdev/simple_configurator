@@ -1,0 +1,210 @@
+.ccm-page .configurator-question {
+    display: block;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.ccm-page .configurator .sidebar {
+    background-color: #8cd296;
+    border-radius: 20px;
+    padding: 22px 40px 30px;
+    margin-bottom: 25px;
+}
+
+.ccm-page .configurator .float-end .btn.btn-secondary {
+    margin-right: 10px;
+}
+
+.ccm-page .configurator input[type='checkbox'] {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.ccm-page .configurator .sidebar ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ccm-page .configurator .sidebar ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ccm-page .configurator .sidebar ul li a::before {
+    /*noinspection CssNoGenericFontName*/
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 300;
+    display: inline-block;
+    content: "\f111";
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.ccm-page .configurator .sidebar ul li a:not(.active):hover::before {
+    font-weight: 400;
+}
+
+.ccm-page .configurator .sidebar ul li a.active::before {
+    font-weight: 900;
+}
+
+.ccm-page .configurator .sidebar ul li a {
+    color: #ffffff;
+}
+
+.ccm-page .configurator .sidebar ul li a.active {
+    font-weight: bold;
+}
+
+.ccm-page .configurator-question .question-tooltip {
+    font-size: 0.9em;
+}
+
+.ccm-page .configurator-question .description {
+    margin-bottom: 15px;
+}
+
+.configurator-option label:hover {
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+
+.ccm-page .configurator-option.image {
+    position: relative;
+}
+
+.ccm-page .configurator-option.image [type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.ccm-page .configurator-option.image [type=radio] + img {
+    cursor: pointer;
+}
+
+.ccm-page .configurator-option.image [type=radio]:checked + img {
+    outline: 3px solid #8cd296;
+}
+
+.ccm-page .configurator-option.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.ccm-page .configurator-options .image-wrapper {
+    width: calc(100% + 16px);
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    margin: -8px;
+}
+
+.ccm-page .configurator-option.image {
+    margin: 8px;
+}
+
+@media (min-width: 992px) {
+    .ccm-page .configurator-option.image {
+        flex: 0 1 calc(20% - 16px);
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .ccm-page .configurator-option.image {
+        flex: 0 1 calc(25% - 16px);
+    }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+    .ccm-page .configurator-option.image {
+        flex: 0 1 calc(50% - 16px);
+    }
+}
+
+@media (max-width: 576px) {
+    .ccm-page .configurator-option.image {
+        flex: 0 1 calc(100% - 16px);
+    }
+}
+
+.ccm-page .configurator-option.image .value {
+    height: 30px;
+    line-height: 28px;
+    display: block;
+    width: 100%;
+    padding: 0 11px;
+    margin-top: 3px;
+}
+
+
+.ccm-page .configurator .progressbar {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 50px 0;
+}
+
+.ccm-page .configurator .progressbar .hr {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #8cd296;
+    margin-top: -18px;
+}
+
+.ccm-page .configurator .progressbar::before {
+    content: "";
+}
+
+.ccm-page .configurator .progressbar::after {
+    content: "";
+}
+
+.ccm-page .configurator legend {
+    display: none;
+}
+
+.ccm-page .btn-step {
+    position: relative;
+    font-size: 1.1em;
+}
+
+@media (max-width: 576px) {
+    .ccm-page .btn-step {
+        font-size: 0.75em;
+        padding: 0 10px;
+    }
+}
+
+.ccm-page .btn-step::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -10px;
+    /*noinspection CssUnresolvedCustomProperty*/
+    background-color: var(--bs-body-bg);
+    margin-top: -28px;
+    border: 1px solid #8cd296;
+}
+
+.ccm-page .btn-step.active {
+    font-weight: bold;
+    color: #8cd296;
+}
+
+.ccm-page .btn-step.active::before {
+    border-color: #8cd296;
+    background-color: #8cd296;
+}
