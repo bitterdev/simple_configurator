@@ -59,7 +59,7 @@ class Configurators extends DashboardPageController
                     /** @noinspection PhpDeprecationInspection */
                     /** @noinspection SqlDialectInspection */
                     /** @noinspection SqlNoDataSourceInspection */
-                    $highestSortIndex = (int)$this->entityManager->getConnection()->fetchColumn("SELECT sortIndex FROM ZweifelConfiguratorStep ORDER BY sortIndex DESC LIMIT 1");
+                    $highestSortIndex = (int)$this->entityManager->getConnection()->fetchOne("SELECT sortIndex FROM ZweifelConfiguratorStep ORDER BY sortIndex DESC LIMIT 1");
                 } catch (Exception) {
                 }
 

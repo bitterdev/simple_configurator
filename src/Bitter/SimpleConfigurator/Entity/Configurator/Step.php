@@ -37,7 +37,7 @@ class Step implements JsonSerializable
     /**
      * @var string
      * @ORM\Id
-     * @ORM\Column(type="uuid", unique=true)
+     * @ORM\Column(type="uuid", unique=true, length=36)
      * @ORM\GeneratedValue(strategy="CUSTOM")
      * @ORM\CustomIdGenerator(class=RespectfulUuidGenerator::class)
      */

@@ -13,7 +13,7 @@ use Doctrine\DBAL\Exception;
 class Controller extends Package implements ProviderAggregateInterface
 {
     protected string $pkgHandle = 'simple_configurator';
-    protected string $pkgVersion = '0.0.2';
+    protected string $pkgVersion = '0.0.3';
     protected $appVersionRequired = '9.0.0';
     protected $pkgAutoloaderRegistries = [
         'src/Bitter/SimpleConfigurator' => 'Bitter\SimpleConfigurator',
@@ -43,9 +43,7 @@ class Controller extends Package implements ProviderAggregateInterface
     {
         $autoloadFile = $this->getPackagePath() . DIRECTORY_SEPARATOR . "vendor" . DIRECTORY_SEPARATOR . "autoload.php";
 
-        if (file_exists($autoloadFile)) {
-            include($autoloadFile);
-        }
+        include($autoloadFile);
 
         /** @var ServiceProvider $serviceProvider */
         /** @noinspection PhpUnhandledExceptionInspection */
@@ -68,12 +66,12 @@ class Controller extends Package implements ProviderAggregateInterface
 
         /** @var Connection $db */
         /** @noinspection PhpUnhandledExceptionInspection */
-        $db = $this->app->make(Connection::class);
+        $db = $this->app->make('database')->connection();
 
         try {
             /** @noinspection SqlDialectInspection */
             /** @noinspection SqlNoDataSourceInspection */
-            $hasContentAvailable = (int)$db->fetchColumn("SELECT COUNT(*) FROM AquagreenConfiguratorStep") > 0;
+            $hasContentAvailable = (int)$db->fetchOne("SELECT COUNT(*) FROM ConfiguratorStep") > 0;
         } catch (Exception) {
             // Ignore
         }
@@ -102,7 +100,7 @@ class Controller extends Package implements ProviderAggregateInterface
 
         /** @var Connection $db */
         /** @noinspection PhpUnhandledExceptionInspection */
-        $db = $this->app->make(Connection::class);
+        $db = $this->app->make('database')->connection();
 
         /** @noinspection SqlDialectInspection */
         /** @noinspection SqlNoDataSourceInspection */

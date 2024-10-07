@@ -51,7 +51,7 @@ class Question extends BackendInterfaceController
                     /** @noinspection PhpDeprecationInspection */
                     /** @noinspection SqlDialectInspection */
                     /** @noinspection SqlNoDataSourceInspection */
-                    $highestSortIndex = (int)$this->entityManager->getConnection()->fetchColumn("SELECT sortIndex FROM AquagreenConfiguratorQuestion WHERE stepId = ? ORDER BY sortIndex DESC LIMIT 1", [
+                    $highestSortIndex = (int)$this->entityManager->getConnection()->fetchOne("SELECT sortIndex FROM ConfiguratorQuestion WHERE stepId = ? ORDER BY sortIndex DESC LIMIT 1", [
                         $stepId
                     ]);
 

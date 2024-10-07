@@ -68,7 +68,6 @@ class Controller extends BlockController
     {
         parent::registerViewAssets($outputContent);
 
-        $this->requireAsset("css", "toastify");
         $this->requireAsset("css", "font-awesome");
         $this->requireAsset("core/cms");
     }
